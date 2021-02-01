@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Python</h2>
+
+<table style="width:100%">
+  <tr>
+    <th>MATERIALS</th>
+    <th>UPVOTES</th> 
+    </tr>
+  <tr>
+    <td>pdf1</td>
+    <td>No of Upvotes</td>
+    </tr>
+  <tr>
+    <td>pdf2</td>
+    <td>No of Upvotes</td>
+    </tr>
+  <tr>
+    <td>pdf3</td>
+    <td>No of Upvotes</td>
+    </tr>
+</table>
+
+</body>
+</html>
+
+
+
+<div class="container p-y-1">
+  <div class="row m-b-1">
+    <div class="col-sm-6 offset-sm-3">
+      <button type="button" class="btn btn-primary btn-block" onclick="document.getElementById('inputFile').click()">Material 1</button>
+      <div class="form-group inputDnD">
+        <label class="sr-only" for="inputFile">Download</label>
+        <input type="file" class="form-control-file text-primary font-weight-bold" id="inputFile" accept="image/*" onchange="readUrl(this)" data-title="Drag and drop a file">
+      </div>
+    </div>
+  </div>
+   <div class="row m-b-1">
+    <div class="col-sm-6 offset-sm-3">
+      <button type="button" class="btn btn-success btn-block" onclick="document.getElementById('inputFile').click()">Material 2</button>
+      <div class="form-group inputDnD">
+        <label class="sr-only" for="inputFile">Download</label>
+        <input type="file" class="form-control-file text-success font-weight-bold" id="inputFile" accept="image/*" onchange="readUrl(this)" data-title="Drag and drop a file">
+      </div>
+    </div>
+  </div>
+    <div class="row m-b-1">
+    <div class="col-sm-6 offset-sm-3">
+      <button type="button" class="btn btn-warning btn-block" onclick="document.getElementById('inputFile').click()">Material 3</button>
+      <div class="form-group inputDnD">
+        <label class="sr-only" for="inputFile">Download</label>
+        <input type="file" class="form-control-file text-warning font-weight-bold" id="inputFile" accept="image/*" onchange="readUrl(this)" data-title="Drag and drop a file">
+      </div>
+    </div>
+  </div>
+    <div class="row m-b-1">
+    <div class="col-sm-6 offset-sm-3">
+      <button type="button" class="btn btn-danger btn-block" onclick="document.getElementById('inputFile').click()">Material 4</button>
+      <div class="form-group inputDnD">
+        <label class="sr-only" for="inputFile">Download</label>
+        <input type="file" class="form-control-file text-danger font-weight-bold" id="inputFile" accept="image/*" onchange="readUrl(this)" data-title="Drag and drop a file">
+      </div>
+    </div>
+  </div>
+</div>
